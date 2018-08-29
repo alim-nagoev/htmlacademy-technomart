@@ -12,7 +12,7 @@ window.addEventListener('load', function () {
 	// events
 	bar_button.addEventListener("click", (e) => {
 		e.preventDefault();
-		this.classList.toggle("bar_open");
+		bar_button.classList.toggle("bar_open");
 		header_navigation.classList.toggle("menu_open");
 	});
 	for (let i = 0; i < menuLinks.length; i++) {
